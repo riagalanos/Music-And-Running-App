@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
             
-            //silly comment for GitHub demon
+            //silly comment for GitHub demo for teachers
 
         // The only thing that's different is we added the 5 lines below.
         AuthenticationRequest.Builder builder = new AuthenticationRequest.Builder(CLIENT_ID, AuthenticationResponse.Type.TOKEN, REDIRECT_URI);
