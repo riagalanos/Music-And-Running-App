@@ -79,7 +79,7 @@ public class MainActivity extends Activity implements
     public void onPlaybackEvent(PlayerEvent playerEvent) {
         Log.d("MainActivity", "Playback event received: " + playerEvent.name());
         switch (playerEvent) {
-            // Handle event type as necessary
+            // Handle event type as necessar
             default:
                 break;
         }
